@@ -1,2 +1,0 @@
-# Repository with Java Exercises
-

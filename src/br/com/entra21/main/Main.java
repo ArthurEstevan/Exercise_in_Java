@@ -8,6 +8,7 @@ import br.com.entra21.main.exercise_05.SuccessorAndPredecessor;
 import br.com.entra21.main.exercise_06.DoubleTripleRoot;
 import br.com.entra21.main.exercise_07.StudentAverage;
 import br.com.entra21.main.exercise_08.ConvertMeters;
+import br.com.entra21.main.exercise_09.TableMultiplication;
 
 import java.util.Scanner;
 
@@ -20,7 +21,7 @@ public class Main {
         byte option;
 
         do {
-
+            System.out.println();
             System.out.println("Select Exercise");
             System.out.println("0 - Leave");
             System.out.println("1 - Exercise Hello World");
@@ -84,6 +85,8 @@ public class Main {
                     break;
 
                 case 9:
+                    TableMultiplication.tableMultiplication();
+                    exit();
                     break;
 
                 case 10:

@@ -7,6 +7,7 @@ import br.com.entra21.main.exercise_04.CountingLetters;
 import br.com.entra21.main.exercise_05.SuccessorAndPredecessor;
 import br.com.entra21.main.exercise_06.DoubleTripleRoot;
 import br.com.entra21.main.exercise_07.StudentAverage;
+import br.com.entra21.main.exercise_08.ConvertMeters;
 
 import java.util.Scanner;
 
@@ -29,7 +30,7 @@ public class Main {
             System.out.println("5 - Exercise Successor and Predecessor");
             System.out.println("6 - Exercise Double/Triple/Root");
             System.out.println("7 - Exercise Student's Average");
-            System.out.println("8 - Exercise");
+            System.out.println("8 - Exercise Convert Meters");
             System.out.println("9 - Exercise");
             System.out.println("10 - Exercise");
             System.out.println("11 - Exercise");
@@ -78,6 +79,8 @@ public class Main {
                     break;
 
                 case 8:
+                    ConvertMeters.convertMeters();
+                    exit();
                     break;
 
                 case 9:

@@ -5,6 +5,8 @@ import br.com.entra21.main.exercise_02.WelcomeMenssage;
 import br.com.entra21.main.exercise_03.Sum;
 import br.com.entra21.main.exercise_04.CountingLetters;
 import br.com.entra21.main.exercise_05.SuccessorAndPredecessor;
+import br.com.entra21.main.exercise_06.DoubleTripleRoot;
+import br.com.entra21.main.exercise_07.StudentAverage;
 
 import java.util.Scanner;
 
@@ -24,9 +26,9 @@ public class Main {
             System.out.println("2 - Exercise Welcome");
             System.out.println("3 - Exercise Sum");
             System.out.println("4 - Exercise Counting Letters");
-            System.out.println("5 - Exercise");
-            System.out.println("6 - Exercise");
-            System.out.println("7 - Exercise");
+            System.out.println("5 - Exercise Successor and Predecessor");
+            System.out.println("6 - Exercise Double/Triple/Root");
+            System.out.println("7 - Exercise Student's Average");
             System.out.println("8 - Exercise");
             System.out.println("9 - Exercise");
             System.out.println("10 - Exercise");
@@ -66,9 +68,13 @@ public class Main {
                     break;
 
                 case 6:
+                    DoubleTripleRoot.DoubleTripleRoot();
+                    exit();
                     break;
 
                 case 7:
+                    StudentAverage.StudentAverage();
+                    exit();
                     break;
 
                 case 8:
@@ -106,7 +112,7 @@ public class Main {
         System.out.println("Do you wanna exit? (yes or no)");
         answer = input.next();
 
-        if(answer.equalsIgnoreCase("yes")) {
+        if (answer.equalsIgnoreCase("yes")) {
             System.exit(1);
         }
 

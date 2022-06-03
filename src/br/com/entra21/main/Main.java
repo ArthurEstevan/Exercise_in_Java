@@ -10,6 +10,7 @@ import br.com.entra21.main.exercise_07.StudentAverage;
 import br.com.entra21.main.exercise_08.ConvertMeters;
 import br.com.entra21.main.exercise_09.TableMultiplication;
 import br.com.entra21.main.exercise_10.RealToDollar;
+import br.com.entra21.main.exercise_11.PaintingWall;
 
 import java.util.Scanner;
 
@@ -33,9 +34,9 @@ public class Main {
             System.out.println("6 - Exercise Double/Triple/Root");
             System.out.println("7 - Exercise Student's Average");
             System.out.println("8 - Exercise Convert Meters");
-            System.out.println("9 - Exercise");
-            System.out.println("10 - Exercise");
-            System.out.println("11 - Exercise");
+            System.out.println("9 - Exercise Table Multiplication");
+            System.out.println("10 - Exercise Real to Dollar");
+            System.out.println("11 - Exercise Painting Wall");
 
             option = input.nextByte();
 
@@ -96,6 +97,8 @@ public class Main {
                     break;
 
                 case 11:
+                    PaintingWall.paintingWall();
+                    exit();
                     break;
 
                 case 12:

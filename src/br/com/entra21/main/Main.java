@@ -4,6 +4,7 @@ import br.com.entra21.main.exercise_01.HelloWorld;
 import br.com.entra21.main.exercise_02.WelcomeMenssage;
 import br.com.entra21.main.exercise_03.Sum;
 import br.com.entra21.main.exercise_04.CountingLetters;
+import br.com.entra21.main.exercise_05.SuccessorAndPredecessor;
 
 import java.util.Scanner;
 
@@ -60,6 +61,8 @@ public class Main {
                     break;
 
                 case 5:
+                    SuccessorAndPredecessor.SuccessorAndPredecessor();
+                    exit();
                     break;
 
                 case 6:

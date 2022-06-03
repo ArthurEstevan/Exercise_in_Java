@@ -9,6 +9,7 @@ import br.com.entra21.main.exercise_06.DoubleTripleRoot;
 import br.com.entra21.main.exercise_07.StudentAverage;
 import br.com.entra21.main.exercise_08.ConvertMeters;
 import br.com.entra21.main.exercise_09.TableMultiplication;
+import br.com.entra21.main.exercise_10.RealToDollar;
 
 import java.util.Scanner;
 
@@ -90,6 +91,8 @@ public class Main {
                     break;
 
                 case 10:
+                    RealToDollar.realToDollar();
+                    exit();
                     break;
 
                 case 11:

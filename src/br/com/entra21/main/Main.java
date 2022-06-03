@@ -17,9 +17,26 @@ public class Main {
         do {
 
             System.out.println("Select Exercise");
+            System.out.println("0 - Leave");
+            System.out.println("1 - Exercise Hello World");
+            System.out.println("2 - Exercise Welcome");
+            System.out.println("3 - Exercise Sum");
+            System.out.println("4 - Leave");
+            System.out.println("5 - Leave");
+            System.out.println("6 - Leave");
+            System.out.println("7 - Leave");
+            System.out.println("8 - Leave");
+            System.out.println("9 - Leave");
+            System.out.println("10 - Leave");
+            System.out.println("11 - Leave");
+
             option = input.nextByte();
 
             switch (option) {
+
+                case 0:
+
+                    break;
 
                 case 1:
                     HelloWorld.helloWorld();
@@ -33,7 +50,38 @@ public class Main {
                     Sum.sum();
                     break;
 
+                case 4:
+                    break;
+
+                case 5:
+                    break;
+
+                case 6:
+                    break;
+
+                case 7:
+                    break;
+
+                case 8:
+                    break;
+
+                case 9:
+                    break;
+
+                case 10:
+                    break;
+
+                case 11:
+                    break;
+
+                case 12:
+                    break;
+
+                case 13:
+                    break;
+
                 default:
+                    System.out.println("Choose Correct Option");
                     break;
             }
 

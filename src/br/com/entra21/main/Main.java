@@ -1,5 +1,7 @@
 package br.com.entra21.main;
 
+import br.com.entra21.main.exercise_01.HelloWorld;
+
 import java.util.Scanner;
 
 public class Main {
@@ -18,6 +20,7 @@ public class Main {
             switch (option) {
 
                 case 1:
+                    HelloWorld.helloWorld();
                     break;
 
                 case 2:

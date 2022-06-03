@@ -1,6 +1,8 @@
 package br.com.entra21.main;
 
 import br.com.entra21.main.exercise_01.HelloWorld;
+import br.com.entra21.main.exercise_02.WelcomeMenssage;
+import br.com.entra21.main.exercise_03.Sum;
 
 import java.util.Scanner;
 
@@ -24,9 +26,11 @@ public class Main {
                     break;
 
                 case 2:
+                    WelcomeMenssage.welcomeMenssage();
                     break;
 
                 case 3:
+                    Sum.sum();
                     break;
 
                 default:

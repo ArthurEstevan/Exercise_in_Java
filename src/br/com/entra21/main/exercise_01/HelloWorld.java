@@ -4,6 +4,8 @@ public class HelloWorld {
 
     public static void helloWorld() {
 
+        System.out.println("Make a program that displays Hello World on the console:");
+
         System.out.println("Hello World");
     }
 

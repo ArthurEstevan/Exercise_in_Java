@@ -12,10 +12,10 @@ public class PaintingWall {
 
         float width, height, area;
 
-        System.out.print("What is the width of your wall in meters? ");
+        System.out.print("What is the width of your wall in meters: ");
         width = input.nextFloat();
 
-        System.out.print("What is the height of your wall in meters? ");
+        System.out.print("What is the height of your wall in meters: ");
         height = input.nextFloat();
 
         area = width * height;

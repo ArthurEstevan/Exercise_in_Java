@@ -12,6 +12,7 @@ import br.com.entra21.main.exercise_09.TableMultiplication;
 import br.com.entra21.main.exercise_10.RealToDollar;
 import br.com.entra21.main.exercise_11.PaintingWall;
 import br.com.entra21.main.exercise_12.DiscountedPrice;
+import br.com.entra21.main.exercise_13.NewSalary;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -96,6 +97,7 @@ public class Main {
                     exit();
                     break;
                 case 13:
+                    NewSalary.newSalary();
                     exit();
                     break;
                 case 14:

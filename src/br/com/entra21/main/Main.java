@@ -13,6 +13,8 @@ import br.com.entra21.main.exercise_10.RealToDollar;
 import br.com.entra21.main.exercise_11.PaintingWall;
 import br.com.entra21.main.exercise_12.DiscountedPrice;
 import br.com.entra21.main.exercise_13.NewSalary;
+import br.com.entra21.main.exercise_14.CelsiusFahrenheit;
+import br.com.entra21.main.exercise_15.CarRentalPrice;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -101,9 +103,11 @@ public class Main {
                     exit();
                     break;
                 case 14:
+                    CelsiusFahrenheit.celsiusFahrenheit();
                     exit();
                     break;
                 case 15:
+                    CarRentalPrice.carRentalPrice();
                     exit();
                     break;
                 case 16:
@@ -133,6 +137,7 @@ public class Main {
         System.out.println("Do you wanna exit? (yes or no)");
         answer = input.next();
         if (answer.equalsIgnoreCase("yes")) {
+            System.out.println("Thank you so much for using my program.");
             System.exit(1);
         }
     }

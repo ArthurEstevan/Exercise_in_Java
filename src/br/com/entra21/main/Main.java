@@ -46,7 +46,7 @@ public class Main {
             switch (opcao) {
 
                 case 0:
-                    exit();
+                    System.exit(0);
                     break;
                 case 1:
                     HelloWorld.helloWorld();

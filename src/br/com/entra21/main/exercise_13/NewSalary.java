@@ -1,6 +1,7 @@
 package br.com.entra21.main.exercise_13;
 
 import java.security.KeyStore;
+import java.text.DecimalFormat;
 import java.util.HashMap;
 import java.util.Map.Entry;
 import java.util.Scanner;
@@ -34,18 +35,24 @@ public class NewSalary {
         System.out.println("Dev-Apprentice received 5% raise");
         System.out.println("Dev-Intern received 0% raise\n");
 
+        DecimalFormat formato = new DecimalFormat("#.##");
+
         double salary[] = new double[4];
 
-        salary[0] =10000.00 + (10000.00 * (15f/100f));
+        salary[0] = 10000.00 + (10000.00 * (15f / 100f));
+        salary[0] = Double.valueOf(formato.format(salary[0]));
         funcionarios.put("Architect", salary[0]);
 
-        salary[1] =8000.00 + (8000.00 * (10f/100f));
+        salary[1] = 8000.00 + (8000.00 * (10f / 100f));
+        salary[1] = Double.valueOf(formato.format(salary[1]));
         funcionarios.put("Dev-Senior", salary[1]);
 
-        salary[2] =4000.00 + (4000.00 * (5f/100f));
+        salary[2] = 4000.00 + (4000.00 * (5f / 100f));
+        salary[2] = Double.valueOf(formato.format(salary[2]));
         funcionarios.put("Dev-Junior", salary[2]);
 
-        salary[3] =2000.00 + (2000.00 * (5f/100f));
+        salary[3] = 2000.00 + (2000.00 * (5f / 100f));
+        salary[3] = Double.valueOf(formato.format(salary[3]));
         funcionarios.put("Dev-Apprentice", salary[3]);
 
 

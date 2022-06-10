@@ -15,6 +15,10 @@ import br.com.entra21.main.exercise_12.DiscountedPrice;
 import br.com.entra21.main.exercise_13.NewSalary;
 import br.com.entra21.main.exercise_14.CelsiusFahrenheit;
 import br.com.entra21.main.exercise_15.CarRentalPrice;
+import br.com.entra21.main.exercise_16.Extracting;
+import br.com.entra21.main.exercise_17.Hypotenuse;
+import br.com.entra21.main.exercise_18.AgeCurrentYear;
+import br.com.entra21.main.exercise_19.AverageStudent;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -111,15 +115,19 @@ public class Main {
                     exit();
                     break;
                 case 16:
+                    Extracting.extracting();
                     exit();
                     break;
                 case 17:
+                    Hypotenuse.hypotenuse();
                     exit();
                     break;
                 case 18:
+                    AgeCurrentYear.ageCurrentYear();
                     exit();
                     break;
                 case 19:
+                    AverageStudent.averageStudent();
                     exit();
                     break;
                 case 20:
@@ -134,7 +142,7 @@ public class Main {
 
     public static void exit() {
         String answer;
-        System.out.println("Do you wanna exit? (yes or no)");
+        System.out.println("\nDo you wanna exit? (yes or no)");
         answer = input.next();
         if (answer.equalsIgnoreCase("yes")) {
             System.out.println("Thank you so much for using my program.");

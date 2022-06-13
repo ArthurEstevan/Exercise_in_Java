@@ -24,6 +24,7 @@ import br.com.entra21.main.exercise_21.WallTiles;
 import br.com.entra21.main.exercise_22.VolumeCan;
 import br.com.entra21.main.exercise_23.GuessTheNumber;
 import br.com.entra21.main.exercise_24.ElectronicRadar;
+import br.com.entra21.main.exercise_25.EvenOrOdd;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -153,8 +154,31 @@ public class Main {
                     exit();
                     break;
                 case 25:
+                    EvenOrOdd.evenOrOdd();
                     exit();
                     break;
+                case 26:
+                    exit();
+                    break;
+                case 27:
+                    exit();
+                    break;
+                case 28:
+                    exit();
+                    break;
+                case 29:
+                    exit();
+                    break;
+                case 30:
+                    exit();
+                    break;
+                case 31:
+                    exit();
+                    break;
+                case 32:
+                    exit();
+                    break;
+
 
             }
 

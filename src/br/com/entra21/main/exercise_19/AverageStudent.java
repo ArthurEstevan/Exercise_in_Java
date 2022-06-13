@@ -20,6 +20,10 @@ public class AverageStudent {
 
             System.out.print("Enter your grade: ");
             valorNotas = input.nextFloat();
+            if(valorNotas < 0 || valorNotas > 10) {
+                System.out.println("Please enter a valid note...");
+            }
+
             if (valorNotas != 0f) {
                 notas++;
                 System.out.print("Do you have any more notes: ");
@@ -31,11 +35,11 @@ public class AverageStudent {
 
         } while (auxiliar.equalsIgnoreCase("sim"));
 
-        if (media >= 7) {
+        if (media >= 7 || media <= 10) {
             System.out.println("You passed: " +media);
-        } if(media >= 5 || media < 7) {
+        }else if(media >= 5 || media <= 7) {
             System.out.println("You stayed in recovery: "+media);
-        } if (media < 5) {
+        }else if (media < 5) {
             System.out.println("You fail: "+media);
         }
     }

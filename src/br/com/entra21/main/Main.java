@@ -19,6 +19,7 @@ import br.com.entra21.main.exercise_16.Extracting;
 import br.com.entra21.main.exercise_17.Hypotenuse;
 import br.com.entra21.main.exercise_18.AgeCurrentYear;
 import br.com.entra21.main.exercise_19.AverageStudent;
+import br.com.entra21.main.exercise_20.TemperatureConverter;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -36,14 +37,14 @@ public class Main {
 
         LocalDate hoje = LocalDate.now();
         DateTimeFormatter formatar = DateTimeFormatter.ofPattern("dd/MM/YYYY");
-        System.out.println("\nSeu acesso foi no dia: " +formatar.format(hoje)+"\n");
+        System.out.println("\nSeu acesso foi no dia: " + formatar.format(hoje) + "\n");
 
         byte opcao;
 
         do {
             System.out.println("=====================Menu Exercises======================");
-            for (int contador=0; contador <= 20; contador++) {
-                System.out.println(contador==0?"\t0 - Fechar Programa":"\t" +(contador)+ " - Exercise");
+            for (int contador = 0; contador <= 30; contador++) {
+                System.out.println(contador == 0 ? "\t0 - Fechar Programa" : "\t" + (contador) + " - Exercise");
             }
             System.out.println("=======================================================");
             System.out.print("Choose the Exercise: ");
@@ -131,11 +132,28 @@ public class Main {
                     exit();
                     break;
                 case 20:
+                    TemperatureConverter.temperatureConverter();
                     exit();
                     break;
+                case 21:
+
+                    break;
+                case 22:
+                    break;
+
+                case 23:
+
+                    break;
+                case 24:
+
+                    break;
+                case 25:
+
+                    break;
+
             }
 
-        }while (opcao != 0);
+        } while (opcao != 0);
 
 
     }

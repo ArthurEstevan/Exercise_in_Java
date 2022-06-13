@@ -20,6 +20,7 @@ import br.com.entra21.main.exercise_17.Hypotenuse;
 import br.com.entra21.main.exercise_18.AgeCurrentYear;
 import br.com.entra21.main.exercise_19.AverageStudent;
 import br.com.entra21.main.exercise_20.TemperatureConverter;
+import br.com.entra21.main.exercise_21.WallTiles;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -136,19 +137,21 @@ public class Main {
                     exit();
                     break;
                 case 21:
-
+                    WallTiles.wallTiles();
+                    exit();
                     break;
                 case 22:
+
+                    exit();
                     break;
-
                 case 23:
-
+                    exit();
                     break;
                 case 24:
-
+                    exit();
                     break;
                 case 25:
-
+                    exit();
                     break;
 
             }

@@ -23,6 +23,7 @@ import br.com.entra21.main.exercise_20.TemperatureConverter;
 import br.com.entra21.main.exercise_21.WallTiles;
 import br.com.entra21.main.exercise_22.VolumeCan;
 import br.com.entra21.main.exercise_23.GuessTheNumber;
+import br.com.entra21.main.exercise_24.ElectronicRadar;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -56,6 +57,7 @@ public class Main {
             switch (opcao) {
 
                 case 0:
+                    System.out.println("Thank you so much for using my program.");
                     System.exit(0);
                     break;
                 case 1:
@@ -151,6 +153,7 @@ public class Main {
                     exit();
                     break;
                 case 24:
+                    ElectronicRadar.electronicRadar();
                     exit();
                     break;
                 case 25:

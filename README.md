@@ -1,5 +1,13 @@
 # Repository with Exercises in Java
 
+> _Exercises on the subjects studied at Entra21_
+> 
+
+![Gif Entra21](https://raw.githubusercontent.com/seiler-emerson/Entra21_Logica_Java_2022/main/gif/entra21.gif)
+
+
+# Exercises
+
 <a href="#"><img  src="https://media1.giphy.com/media/lTEmlS1yrVhMQ/giphy.gif?cid=ecf05e47t9itnd3eiiedsuxc6affe52qx6zc9kg4ndymd6n8&rid=giphy.gif&ct=g" width="500 " height="350" /></a>
 
 

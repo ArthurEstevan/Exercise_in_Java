@@ -21,6 +21,7 @@ import br.com.entra21.main.exercise_18.AgeCurrentYear;
 import br.com.entra21.main.exercise_19.AverageStudent;
 import br.com.entra21.main.exercise_20.TemperatureConverter;
 import br.com.entra21.main.exercise_21.WallTiles;
+import br.com.entra21.main.exercise_22.VolumeCan;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -141,7 +142,7 @@ public class Main {
                     exit();
                     break;
                 case 22:
-
+                    VolumeCan.volumeCan();
                     exit();
                     break;
                 case 23:

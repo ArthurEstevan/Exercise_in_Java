@@ -37,3 +37,4 @@
 |Exercise 022|[Can Volume](https://github.com/ArthurEstevan/Exercise_in_Java/tree/master/src/br/com/entra21/main/exercise_22)
 |Exercise 023|[Guess the number](https://github.com/ArthurEstevan/Exercise_in_Java/tree/master/src/br/com/entra21/main/exercise_23)
 |Exercise 024|[Electronic Radar](https://github.com/ArthurEstevan/Exercise_in_Java/tree/master/src/br/com/entra21/main/exercise_24)
+|Exercise 025|[Even or Odd Number](https://github.com/ArthurEstevan/Exercise_in_Java/tree/master/src/br/com/entra21/main/exercise_25)

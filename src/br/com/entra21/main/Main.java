@@ -28,6 +28,8 @@ import br.com.entra21.main.exercise_25.EvenOrOdd;
 import br.com.entra21.main.exercise_26.TicketPrice;
 import br.com.entra21.main.exercise_27.YearVerifier;
 import br.com.entra21.main.exercise_28.IncreaseCalculator;
+import br.com.entra21.main.exercise_29.ComparingValues;
+import br.com.entra21.main.exercise_30.MilitaryEnlistment;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -173,9 +175,11 @@ public class Main {
                     exit();
                     break;
                 case 29:
+                    ComparingValues.comparingValues();
                     exit();
                     break;
                 case 30:
+                    MilitaryEnlistment.militaryEnlistment();
                     exit();
                     break;
                 case 31:

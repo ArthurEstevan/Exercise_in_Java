@@ -25,6 +25,9 @@ import br.com.entra21.main.exercise_22.VolumeCan;
 import br.com.entra21.main.exercise_23.GuessTheNumber;
 import br.com.entra21.main.exercise_24.ElectronicRadar;
 import br.com.entra21.main.exercise_25.EvenOrOdd;
+import br.com.entra21.main.exercise_26.TicketPrice;
+import br.com.entra21.main.exercise_27.YearVerifier;
+import br.com.entra21.main.exercise_28.IncreaseCalculator;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -158,12 +161,15 @@ public class Main {
                     exit();
                     break;
                 case 26:
+                    TicketPrice.ticketPrice();
                     exit();
                     break;
                 case 27:
+                    YearVerifier.yearVerifier();
                     exit();
                     break;
                 case 28:
+                    IncreaseCalculator.increaseCalculator();
                     exit();
                     break;
                 case 29:

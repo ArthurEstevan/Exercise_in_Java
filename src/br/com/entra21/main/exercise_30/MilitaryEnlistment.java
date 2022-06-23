@@ -34,7 +34,5 @@ public class MilitaryEnlistment {
             System.out.println("\nOur! Are you from the future?");
         }
 
-
-
     }
 }

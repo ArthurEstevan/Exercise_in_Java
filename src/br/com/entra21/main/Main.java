@@ -31,6 +31,8 @@ import br.com.entra21.main.exercise_28.IncreaseCalculator;
 import br.com.entra21.main.exercise_29.ComparingValues;
 import br.com.entra21.main.exercise_30.MilitaryEnlistment;
 import br.com.entra21.main.exercise_31.NationalSwimming;
+import br.com.entra21.main.exercise_32.EstateFinancing;
+import br.com.entra21.main.exercise_33.ProductPrice;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -50,7 +52,7 @@ public class Main {
 
         do {
             System.out.println("=====================Menu Exercises======================");
-            for (int contador = 0; contador <= 30; contador++) {
+            for (int contador = 0; contador <= 40; contador++) {
                 System.out.println(contador == 0 ? "\t0 - Fechar Programa" : "\t" + (contador) + " - Exercise");
             }
             System.out.println("=======================================================");
@@ -188,10 +190,11 @@ public class Main {
                     exit();
                     break;
                 case 32:
-
+                    EstateFinancing.estateFinancing();
                     exit();
                     break;
                 case 33:
+                    ProductPrice.productPrice();
                     exit();
                     break;
                 case 34:

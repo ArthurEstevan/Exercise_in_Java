@@ -6,14 +6,16 @@ public class EstateFinancing {
 
     public static void estateFinancing() {
 
-        System.out.println("Write a program to approve the bank loan for the purchase of a house. Ask the value of the home, the buyer's salary and how many years he will pay. The monthly installment cannot exceed 30% of the salary or else the loan will be denied.");
+        System.out.println("Write a program to approve the bank loan for the purchase of a house.\n" +
+                "Ask the value of the home, the buyer's salary and how many years he will pay.\n" +
+                "The monthly installment cannot exceed 30% of the salary or else the loan will be denied.");
 
         Scanner input = new Scanner(System.in);
 
         double priceHome, salary, financingHome, financingMonth;
         byte yearBuy;
 
-        System.out.print("What price home: ");
+        System.out.print("\nWhat price home: ");
         priceHome = input.nextDouble();
 
         System.out.print("What is your salary: ");
@@ -32,7 +34,7 @@ public class EstateFinancing {
 
         } else {
             System.out.println("Congratulations, your funding has been approved.");
-            System.out.println("O valor da sua prestacao ficou em R$"+financingHome+" financiada em "+financingMonth+" meses.\n");
+            System.out.println("The amount of your installment was R$"+financingHome+" financed in "+financingMonth+" months\n");
 
         }
 

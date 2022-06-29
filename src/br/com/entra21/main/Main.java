@@ -30,6 +30,7 @@ import br.com.entra21.main.exercise_27.YearVerifier;
 import br.com.entra21.main.exercise_28.IncreaseCalculator;
 import br.com.entra21.main.exercise_29.ComparingValues;
 import br.com.entra21.main.exercise_30.MilitaryEnlistment;
+import br.com.entra21.main.exercise_31.NationalSwimming;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -183,11 +184,41 @@ public class Main {
                     exit();
                     break;
                 case 31:
+                    NationalSwimming.nationalSwimming();
                     exit();
                     break;
                 case 32:
+
                     exit();
                     break;
+                case 33:
+                    exit();
+                    break;
+                case 34:
+                    exit();
+                    break;
+                case 35:
+                    exit();
+                    break;
+                case 36:
+                    exit();
+                    break;
+                case 37:
+                    exit();
+                    break;
+                case 38:
+                    exit();
+                    break;
+                case 39:
+                    exit();
+                    break;
+                case 40:
+                    exit();
+                    break;
+                case 41:
+                    exit();
+                    break;
+
 
 
             }

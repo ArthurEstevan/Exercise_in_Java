@@ -33,6 +33,8 @@ import br.com.entra21.main.exercise_30.MilitaryEnlistment;
 import br.com.entra21.main.exercise_31.NationalSwimming;
 import br.com.entra21.main.exercise_32.EstateFinancing;
 import br.com.entra21.main.exercise_33.ProductPrice;
+import br.com.entra21.main.exercise_34.IMCalculator;
+import br.com.entra21.main.exercise_35.SpecifyingNumber;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -198,9 +200,11 @@ public class Main {
                     exit();
                     break;
                 case 34:
+                    IMCalculator.iMCalculator();
                     exit();
                     break;
                 case 35:
+                    SpecifyingNumber.specifyingNumber();
                     exit();
                     break;
                 case 36:
@@ -221,9 +225,6 @@ public class Main {
                 case 41:
                     exit();
                     break;
-
-
-
             }
 
         } while (opcao != 0);

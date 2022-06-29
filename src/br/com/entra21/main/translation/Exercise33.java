@@ -1,8 +1,8 @@
 package br.com.entra21.main.translation;
 
-public enum TranslationPT {
+public enum Exercise33 {
 
-    ENUNCIADO("Elabore um programa que calcule o valor a ser pago por um produto, considerando o seu preço normal e condição de pagamento:\n" +
+    ENUNCIADO("\nElabore um programa que calcule o valor a ser pago por um produto, considerando o seu preço normal e condição de pagamento:\n" +
             "à vista dinheiro/cheque: 10% de desconto"  + "\n" +
             "à vista no cartão: 5% de desconto"         + "\n" +
             "em até 2x no cartão: preço normal"         + "\n" +
@@ -29,7 +29,7 @@ public enum TranslationPT {
 
     private String portugues;
 
-    TranslationPT(String portugues) {
+    Exercise33(String portugues) {
         this.portugues = portugues;
     }
 

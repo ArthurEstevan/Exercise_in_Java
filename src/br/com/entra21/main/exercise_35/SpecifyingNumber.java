@@ -1,6 +1,5 @@
 package br.com.entra21.main.exercise_35;
 
-import br.com.entra21.main.translation.Exercise33;
 import br.com.entra21.main.translation.Exercise35;
 
 import java.util.Scanner;

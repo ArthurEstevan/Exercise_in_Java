@@ -35,6 +35,8 @@ import br.com.entra21.main.exercise_32.EstateFinancing;
 import br.com.entra21.main.exercise_33.ProductPrice;
 import br.com.entra21.main.exercise_34.IMCalculator;
 import br.com.entra21.main.exercise_35.SpecifyingNumber;
+import br.com.entra21.main.exercise_36.CountingNumbers;
+import br.com.entra21.main.exercise_37.ReadingList;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -208,9 +210,11 @@ public class Main {
                     exit();
                     break;
                 case 36:
+                    CountingNumbers.countingNumbers();
                     exit();
                     break;
                 case 37:
+                    ReadingList.readingList();
                     exit();
                     break;
                 case 38:

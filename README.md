@@ -43,3 +43,12 @@
 |Exercise 028|[Increase Calculator](https://github.com/ArthurEstevan/Exercise_in_Java/tree/master/src/br/com/entra21/main/exercise_28)
 |Exercise 029|[Comparing Values](https://github.com/ArthurEstevan/Exercise_in_Java/tree/master/src/br/com/entra21/main/exercise_29)
 |Exercise 030|[Military Enlistment](https://github.com/ArthurEstevan/Exercise_in_Java/tree/master/src/br/com/entra21/main/exercise_30)
+|Exercise 031|[National Swimming](https://github.com/ArthurEstevan/Exercise_in_Java/tree/master/src/br/com/entra21/main/exercise_31)
+|Exercise 032|[Estate Financing](https://github.com/ArthurEstevan/Exercise_in_Java/tree/master/src/br/com/entra21/main/exercise_32)
+|Exercise 033|[]()
+|Exercise 034|[]()
+|Exercise 035|[]()
+|Exercise 036|[]()
+|Exercise 037|[]()
+|Exercise 037|[]()
+

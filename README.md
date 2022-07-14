@@ -1,8 +1,8 @@
-# _Advanced Java_ ![Exercises](file:///C:/Users/Modelagem13/Downloads/java.png)
+# _Java_ ![icone](https://github.com/ArthurEstevan/Exercise_in_Java/blob/master/java_icone.png)
 
 
 
-## _Repository with several exercises in advanced java_
+## _Repository with several exercises in Java_
 
 > _Practical content carried out in the classroom during the Entra21 project._
 >

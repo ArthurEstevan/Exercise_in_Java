@@ -10,8 +10,6 @@
 > - **_Markdown language - Text Formatting_**
 > - **_Documentation - File Documentation_**
 
-![Exercises](https://github.com/ArthurEstevan/Exercise_in_HTML/blob/main/lista_de_exercicios.png)
-
 ## 🎫 _Bonus_
 
 ```yaml

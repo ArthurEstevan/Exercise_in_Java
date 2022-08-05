@@ -37,6 +37,12 @@ import br.com.entra21.main.exercise_34.IMCalculator;
 import br.com.entra21.main.exercise_35.SpecifyingNumber;
 import br.com.entra21.main.exercise_36.CountingNumbers;
 import br.com.entra21.main.exercise_37.ReadingList;
+import br.com.entra21.main.exercise_38.BiggerSmaller;
+import br.com.entra21.main.exercise_39.MultiplesOfThree;
+import br.com.entra21.main.exercise_40.MountingMultiplicationTable;
+import br.com.entra21.main.exercise_41.StoreNumbers;
+import br.com.entra21.main.exercise_42.CountDown;
+import br.com.entra21.main.exercise_43.PrimeNumbers;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -46,7 +52,7 @@ public class Main {
 
     private static Scanner input = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         LocalDate hoje = LocalDate.now();
         DateTimeFormatter formatar = DateTimeFormatter.ofPattern("dd/MM/YYYY");
@@ -56,7 +62,7 @@ public class Main {
 
         do {
             System.out.println("=====================Menu Exercises======================");
-            for (int contador = 0; contador <= 40; contador++) {
+            for (int contador = 0; contador <= 50; contador++) {
                 System.out.println(contador == 0 ? "\t0 - Fechar Programa" : "\t" + (contador) + " - Exercise");
             }
             System.out.println("=======================================================");
@@ -218,21 +224,52 @@ public class Main {
                     exit();
                     break;
                 case 38:
+                    BiggerSmaller.biggerSmaller();
                     exit();
                     break;
                 case 39:
+                    MultiplesOfThree.multiplesOfThree();
                     exit();
                     break;
                 case 40:
+                    MountingMultiplicationTable.mountingMultiplicationTable();
                     exit();
                     break;
                 case 41:
+                    StoreNumbers.StoreNumbers();
+                    exit();
+                    break;
+                case 42:
+                    CountDown.countDown();
+                    exit();
+                    break;
+                case 43:
+                    PrimeNumbers.PrimeNumbers();
+                    exit();
+                    break;
+                case 44:
+                    exit();
+                    break;
+                case 45:
+                    exit();
+                    break;
+                case 46:
+                    exit();
+                    break;
+                case 47:
+                    exit();
+                    break;
+                case 48:
+                    exit();
+                    break;
+                case 49:
+                    exit();
+                    break;
+                case 50:
                     exit();
                     break;
             }
-
         } while (opcao != 0);
-
     }
 
     public static void exit() {

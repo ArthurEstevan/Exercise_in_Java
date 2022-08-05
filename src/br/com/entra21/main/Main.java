@@ -43,6 +43,8 @@ import br.com.entra21.main.exercise_40.MountingMultiplicationTable;
 import br.com.entra21.main.exercise_41.StoreNumbers;
 import br.com.entra21.main.exercise_42.CountDown;
 import br.com.entra21.main.exercise_43.PrimeNumbers;
+import br.com.entra21.main.exercise_44.AgeList;
+import br.com.entra21.main.exercise_45.PersonalData;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -248,9 +250,11 @@ public class Main {
                     exit();
                     break;
                 case 44:
+                    AgeList.ageList();
                     exit();
                     break;
                 case 45:
+                    PersonalData.personalData();
                     exit();
                     break;
                 case 46:
